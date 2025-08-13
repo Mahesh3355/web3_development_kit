@@ -1,13 +1,15 @@
-# Ethers.js Examples
+# Ethereum Development Examples
 
-A comprehensive collection of practical examples demonstrating how to use ethers.js for Ethereum blockchain interactions.
+A comprehensive collection of practical examples demonstrating Ethereum blockchain development with both Solidity smart contracts and Ethers.js for blockchain interactions.
 
 ## 🚀 Technology Stack
 
-- **JavaScript** - Core programming language
+- **Solidity** - Smart contract programming language
+- **JavaScript** - Core programming language for blockchain interactions
 - **[Ethers.js v5](https://docs.ethers.io/v5/)** - Ethereum library for blockchain interactions
 - **[Node.js](https://nodejs.org/en/)** - Runtime environment
 - **[Infura](https://infura.io/)** - Ethereum node provider
+- **[Remix IDE](https://remix.ethereum.org/)** - Online Solidity development environment
 
 ## 📦 Installation & Setup
 
@@ -32,7 +34,34 @@ Before running any examples, you'll need to:
 - Add your Infura Project ID to the respective script files
 - For transaction examples, you'll need test ETH and private keys
 
-## 📚 Examples Overview
+## 📚 Smart Contracts (Solidity)
+
+Learn Solidity basics from the [official documentation](https://docs.soliditylang.org/en/v0.8.30/introduction-to-smart-contracts.html#blockchain-basics).
+
+### File Extension: `.sol`
+
+### Available Smart Contracts:
+
+- **Counter.sol** - Simple counter contract with increment functionality
+- **HotelRoom.sol** - Hotel booking system with payment handling
+- **MyContract.sol** - Basic data types and structures demonstration
+- **array.sol** - Array operations and dynamic arrays
+- **conditional.sol** - Conditional statements and loops
+- **elections.sol** - Complete voting system with OpenZeppelin contracts
+- **maping.sol** - Mapping data structures and nested mappings
+- **talk.sol** - Inheritance and contract interaction examples
+
+### 🛠 Smart Contract Usage
+
+You can use [Remix IDE](https://remix.ethereum.org/) to:
+
+1. Paste or upload the `.sol` files
+2. Compile the contracts using the Solidity Compiler plugin
+3. Deploy and interact with them using the Deploy & Run Transactions plugin
+
+## 📚 Ethers.js Examples
+
+### 1. **Account Balance** (`ethers/1_accounts.js`)
 
 - **Purpose**: Check ETH balance of any wallet address
 - **Network**: Ethereum Mainnet
@@ -115,6 +144,18 @@ Before running any examples, you'll need to:
 
 ## 📖 Learning Path
 
+### Smart Contracts
+
+1. Start with **Counter.sol** to understand basic contract structure
+2. Explore **MyContract.sol** for data types and structures
+3. Study **array.sol** and **maping.sol** for data structures
+4. Learn **conditional.sol** for control flow
+5. Build **HotelRoom.sol** for real-world applications
+6. Master **elections.sol** for complex contract systems
+7. Understand **talk.sol** for inheritance and contract interaction
+
+### Ethers.js Integration
+
 1. Start with **1_accounts.js** to understand basic blockchain queries
 2. Move to **2_read_smart_contract.js** for smart contract interactions
 3. Try **3_send_signed_transaction.js** for basic transactions
@@ -127,11 +168,13 @@ Feel free to submit issues, fork the repository, and create pull requests for an
 
 ## 📄 License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
 
 ## 🔗 Useful Links
 
+- [Solidity Documentation](https://docs.soliditylang.org/)
 - [Ethers.js Documentation](https://docs.ethers.io/v5/)
 - [Infura Documentation](https://docs.infura.io/)
 - [Ethereum Development Documentation](https://ethereum.org/developers/)
 - [Sepolia Faucet](https://sepoliafaucet.com/)
+- [Remix IDE](https://remix.ethereum.org/)
