@@ -4,8 +4,8 @@ A comprehensive collection of practical examples demonstrating Ethereum blockcha
 
 ## 🚀 Technology Stack
 
-- **Solidity** - Smart contract programming language
-- **JavaScript** - Core programming language for blockchain interactions
+- **[Solidity](https://docs.soliditylang.org/en/v0.8.30/)** - Smart contract programming language
+- **[JavaScript](https://devdocs.io/javascript/)** - Core programming language for blockchain interactions
 - **[Ethers.js v5](https://docs.ethers.io/v5/)** - Ethereum library for blockchain interactions
 - **[Node.js](https://nodejs.org/en/)** - Runtime environment
 - **[Infura](https://infura.io/)** - Ethereum node provider
@@ -36,7 +36,9 @@ Before running any examples, you'll need to:
 
 ## 📚 Smart Contracts (Solidity)
 
-Learn Solidity basics from the [official documentation](https://docs.soliditylang.org/en/v0.8.30/introduction-to-smart-contracts.html#blockchain-basics).
+[Learn Basic from](https://docs.soliditylang.org/en/v0.8.30/introduction-to-smart-contracts.html#blockchain-basics)
+
+This repository contains smart contracts written in [Solidity](https://soliditylang.org/) for deployment on Ethereum-compatible blockchains.
 
 ### File Extension: `.sol`
 
@@ -172,7 +174,8 @@ This project is licensed under the MIT License.
 
 ## 🔗 Useful Links
 
-- [Solidity Documentation](https://docs.soliditylang.org/)
+- [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.30/)
+- [JavaScript Documentation](https://devdocs.io/javascript/)
 - [Ethers.js Documentation](https://docs.ethers.io/v5/)
 - [Infura Documentation](https://docs.infura.io/)
 - [Ethereum Development Documentation](https://ethereum.org/developers/)
